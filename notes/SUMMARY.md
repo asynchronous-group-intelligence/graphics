@@ -1,3 +1,3 @@
 # Table of contents
 
-* [Hello](README.md)
+* [🫖 NOTES FROM STUDY SESSIONS](README.md)
