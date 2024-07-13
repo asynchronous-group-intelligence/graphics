@@ -51,10 +51,11 @@ Denormalization: Denormalization, or inverse normalization, is the process of co
 
 Quantization: The process of mapping a large set of input values to a smaller set. In this context, it involves mapping floating-point values back to integer values.
 
-flowchart LR\
-\
-A\[Hard] -->|Text| B(Round) \
-B --> C{Decision} \
-C -->|One| D\[Result 1] \
-C -->|Two| E\[Result 2]
+```mermaid
+flowchart LR
+A[Hard] -->|Text| B(Round) 
+B --> C{Decision} 
+C -->|One| D[Result 1] 
+C -->|Two| E[Result 2]
+```
 
