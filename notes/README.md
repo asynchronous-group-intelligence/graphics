@@ -38,7 +38,7 @@ The PPM format is generally an intermediate format used for image work before co
 
 why?
 
-```c++
+```cpp
 auto r = double(i) / (image_width-1);
 int ir = int(255.999 * r);
 ```
