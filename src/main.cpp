@@ -14,8 +14,6 @@ int main() {
             auto green = double(j) / (image_height - 1);
             auto blue = 0.0;
 
-            std::cout << red << ' ' << green << ' ' << blue << '\n';
-
             // colors in inches
             int internal_red = int(255.999 * red);
             int internal_green = int(255.999 * green);
