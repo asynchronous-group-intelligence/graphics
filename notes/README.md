@@ -15,14 +15,22 @@ P3
 * Everything after that is the image data: RGB triplets.
 * In order: red, green, blue, yellow, white, and black.
 
-3 2\
-255\
-255 0 0\
-0 255 0\
-0 0 255\
-255 255 0\
-255 255 255\
-0 0 0
+| Width | Height |
+| ----- | ------ |
+| 3     | 2      |
+
+| Maximum value for each color |
+| ---------------------------- |
+| 255                          |
+
+| Red | Green | Blue |
+| --- | ----- | ---- |
+| 255 | 0     | 0    |
+| 0   | 255   | 0    |
+| 0   | 0     | 255  |
+| 255 | 255   | 0    |
+| 255 | 255   | 255  |
+| 0   | 0     | 0    |
 
 The PPM format is generally an intermediate format used for image work before converting to a more efficient format, for example the PNG format, without any loss of information in the intermediate step.
 
