@@ -50,3 +50,7 @@ Normalization: Converting integer color values (0-255) to a floating-point range
 Denormalization: Denormalization, or inverse normalization, is the process of converting normalized RGB values from the range (0-1) back to their original scale of (0-255). This is typically done by multiplying the normalized values by 255.999 for precise rounding. This process effectively reverses normalization, restoring the data to its original scale.
 
 Quantization: The process of mapping a large set of input values to a smaller set. In this context, it involves mapping floating-point values back to integer values.
+
+flowchart LR
+
+A\[Hard] -->|Text| B(Round) B --> C{Decision} C -->|One| D\[Result 1] C -->|Two| E\[Result 2]
