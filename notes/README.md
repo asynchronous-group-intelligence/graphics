@@ -1,5 +1,5 @@
 ---
-description: by Dorraj Machai and Daniel Motilla
+description: by Struct and Daniel Motilla
 ---
 
 # 🫖 NOTES FROM STUDY SESSIONS
